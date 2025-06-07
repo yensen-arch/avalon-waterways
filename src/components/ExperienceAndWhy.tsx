@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Open-Air Balconies",
-  description: "Enjoy wall-to-wall, floor-to-ceiling views from beds facing the window in award-winning Panorama Suites.",
+  title: "Panoramic Suite Design",
+  description: "Floor-to-ceiling windows open wall-to-wall, creating Europe’s only open-air balcony staterooms.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Tailored Experiences",
-  description: "Choose between Active, Discovery, and Classic excursions to match your travel style and energy level.",
+  title: "Flexible Itineraries",
+  description: "Customize your cruise with Classic, Active, and Discovery excursions tailored to your travel style.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Locally Inspired Dining",
-  description: "Savor regionally sourced dishes, fine wines, and healthy options through Avalon Fresh menus.",
+  title: "Locally Sourced Dining",
+  description: "Menus reflect regional flavors, served with complimentary wine, beer, and soft drinks.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
   title: "Relaxed Luxury",
-  description: "With fewer passengers, enjoy spacious lounges, a laid-back atmosphere, and attentive service.",
+  description: "A casual yet upscale onboard experience ideal for independent-minded travelers.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Avalon Waterways Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
